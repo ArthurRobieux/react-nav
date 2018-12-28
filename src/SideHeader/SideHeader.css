@@ -152,9 +152,8 @@ height: 100%;
   src: local('CircularStd-Book'), local('CircularStd-Book'), url(font/CircularStd-Book.otf) format('otf');
 }
 
-.page_content{
-    left: 70px;
-    position: relative;
+#page_content{
+    padding-top: 70px;
 }
 
 .my_div{

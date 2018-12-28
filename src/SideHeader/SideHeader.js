@@ -59,8 +59,10 @@ class SideHeader extends Component {
 
                     </nav>
 
-                    <Route path="/calendar" component={CalendarApp} />
-                    <Route path="/roster" component={MembersListApp} />
+                    <div id={"page_content"}>
+                        <Route path="/calendar" component={CalendarApp} />
+                        <Route path="/roster" component={MembersListApp} />
+                    </div>
                 </div>
             </Router>
         );
