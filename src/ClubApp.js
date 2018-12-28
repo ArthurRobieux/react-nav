@@ -9,7 +9,7 @@ class ClubApp extends Component {
         return (
             <div>
                 <SideHeader/>
-                <MembersListApp/>
+                {/*<MembersListApp/>*/}
             </div>
         );
     }
