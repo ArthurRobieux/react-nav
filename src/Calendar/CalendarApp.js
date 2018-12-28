@@ -8,7 +8,6 @@ import ActionsMenu from './ActionsMenu';
 import SideFilters from './SideFilters';
 import CalendarList from './CalendarList';
 import clubEvents from "./clubEvents.json"
-import SideHeader from "../SideHeader/SideHeader";
 
 moment.locale("en");
 
