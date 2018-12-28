@@ -21,26 +21,26 @@ class SideHeader extends Component {
 
                         <ul>
                             <li>
-                                <Link to="/roster">
-                                    <i className="fa fa-members"><img className={"side_header_image"} src="img/members.png" id="members"/></i>
-                                    <span className="nav-text">Membres</span>
-                                </Link>
-                            </li>
-                            <li>
                                 <Link to="/calendar">
                                     <i className="fa fa-members"><img className={"side_header_image"} src="img/calendar.png" id="members"/></i>
                                     <span className="nav-text">Calendrier</span>
                                 </Link>
                             </li>
                             <li>
-                                <a href="#">
+                                <Link to="/roster">
+                                    <i className="fa fa-members"><img className={"side_header_image"} src="img/members.png" id="members"/></i>
+                                    <span className="nav-text">Membres</span>
+                                </Link>
+                            </li>
+                            <li>
+                                <a href="/">
                                     <i className="fa fa-teams"><img className={"side_header_image"} src="img/teams.png" id="teams"/></i>
                                     <span className="nav-text">Equipes</span>
                                 </a>
 
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/">
                                     <i className="fa fa-settings"><img className={"side_header_image"} src="img/settings.png" id="settings"/></i>
                                     <span className="nav-text">Paramètres</span>
                                 </a>
