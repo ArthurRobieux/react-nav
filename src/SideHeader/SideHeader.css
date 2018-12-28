@@ -149,7 +149,7 @@ height: 100%;
   font-family: 'CircularStd-Book';
   font-weight: inherit;
   font-style: normal;
-  src: local('CircularStd-Book'), local('CircularStd-Book'), url(../Calendar/font/CircularStd-Book.otf) format('otf');
+  src: local('CircularStd-Book'), local('CircularStd-Book'), url(font/CircularStd-Book.otf) format('otf');
 }
 
 .page_content{
