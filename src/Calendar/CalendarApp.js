@@ -8,7 +8,7 @@ import ActionsMenu from './ActionsMenu';
 import SideFilters from './SideFilters';
 import CalendarList from './CalendarList';
 import clubEvents from "./clubEvents.json"
-import SideHeader from "./SideHeader";
+import SideHeader from "../SideHeader/SideHeader";
 
 moment.locale("en");
 
@@ -273,8 +273,6 @@ class CalendarApp extends Component {
 
         return (
             <div id={"calendarApp"}>
-
-                <SideHeader/>
 
                 <h3 id={"events_title"}>Evénements</h3>
 
