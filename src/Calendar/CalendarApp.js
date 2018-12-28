@@ -3,6 +3,7 @@ import events from "./events";
 import BigCalendar from "react-big-calendar";
 import './CalendarApp.css';
 import moment from "moment";
+import Chance from "chance";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import ActionsMenu from './ActionsMenu';
 import SideFilters from './SideFilters';
@@ -12,6 +13,22 @@ import clubEvents from "./clubEvents.json"
 moment.locale("en");
 
 const localizer = BigCalendar.momentLocalizer(moment) ;
+
+const chance = new Chance();
+
+function getData(testData) {
+  const data = testData.map(item => {
+    // using chancejs to generate guid
+    // shortid is probably better but seems to have performance issues
+    // on codesandbox.io
+    const _id = chance.guid();
+    return {
+      _id,
+      ...item
+    };
+  });
+  return data;
+}
 
 class CalendarApp extends Component {
     constructor(props) {
@@ -84,7 +101,8 @@ class CalendarApp extends Component {
             };
             events.push(newEvent);
         }
-        this.setState({events: events});
+        this.setState({events: getData(events)});
+        console.log(this.state.events);
     }
 
     // Club Events functions
@@ -159,7 +177,7 @@ class CalendarApp extends Component {
                 events.push(newEvent);
             }
         }
-        this.setState({events: events, teamsList: teamsList, eventTypesList: eventTypesList, seasonsList: seasonsList});
+        this.setState({events: getData(events), teamsList: teamsList, eventTypesList: eventTypesList, seasonsList: seasonsList});
     }
 
     // Filter events if there is a filter

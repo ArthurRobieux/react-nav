@@ -1,3 +1,7 @@
+html {
+  background: #f4f4f4;
+}
+
 hr {
     border: 0;
     height: 0;
@@ -75,6 +79,14 @@ hr {
 
 .ReactTable .rt-tbody{
   font-size: 14px;
+}
+
+.ReactTable .rt-thead .rt-th:last-child {
+    overflow: visible!important;
+}
+
+.ReactTable .rt-tbody .rt-td:last-child{
+    overflow: visible!important;
 }
 
 /*CSS*/
@@ -175,7 +187,7 @@ hr {
 .selection_action_button{
   pointer-events:none;
   opacity: 0.3;
-  cursor: none;
+  cursor: pointer;
 }
 
 .action_link{

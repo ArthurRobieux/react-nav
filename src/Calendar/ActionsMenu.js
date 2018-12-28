@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './CalendarApp.css';
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
 
 class ActionsMenu extends Component {
 
@@ -9,6 +11,31 @@ class ActionsMenu extends Component {
 
     changeSelectedSeason(Calendar, season){
         Calendar.setState({selectedSeason: season})
+    }
+
+    exportCalendar(){
+
+        console.log(document.getElementById("calendar"));
+
+        html2canvas(document.getElementById("calendar")).then(canvas => {
+            var doc = new jsPDF();
+            doc.text(10, 10, 'Calendrier');
+            doc.addImage(canvas, 'PNG', 10, 20, 190, 160);
+            doc.save('Calendrier.pdf');
+        });
+    }
+
+    printCalendar(){
+
+        console.log(document.getElementById("calendar"));
+
+        html2canvas(document.getElementById("calendar")).then(canvas => {
+            var doc = new jsPDF();
+            doc.text(10, 10, 'Calendrier');
+            doc.addImage(canvas, 'PNG', 10, 20, 190, 160);
+            doc.autoPrint();
+            doc.output('dataurlnewwindow');
+        });
     }
 
     render() {
@@ -27,11 +54,14 @@ class ActionsMenu extends Component {
               </a>
 
               {/*Export members list*/}
-              <a href={"/members/export/"}>
-                <button className={"action_button"}>
+                <button className={"action_button"} onClick={() => this.exportCalendar()}>
                     Export
                 </button>
-              </a>
+
+              {/*Print members list*/}
+                <button className={"action_button"} onClick={() => this.printCalendar()}>
+                    Print
+                </button>
 
               {/*Show grid calendar*/}
               <button className={"action_button calendar_view_button"} onClick={() => this.changeView(Calendar, "grid")}>

@@ -6,6 +6,8 @@
     "chance": "^1.0.17",
     "emotion": "^9.2.3",
     "moment": "2.20.1",
+    "html2canvas": "^1.0.0-alpha.12",
+    "jspdf": "^1.5.3",
     "react": "^16.7.0",
     "react-big-calendar": "^0.20.2",
     "react-bootstrap": "^0.32.4",

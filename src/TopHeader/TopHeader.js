@@ -50,7 +50,8 @@ class TopHeader extends Component {
 
         return(
             <div id={"top_header"}>
-                <img className={"club_logo"} src={this.state.clubLogo} alt={"club_logo"}/>
+                <img className={"club_logo"} src={"http://cdn.local.sporteasy.net:8000/media/image/site_logo/168x168/1d41b2b8fafbcaa31a38dc5d5aa51567/9dbf8cb0db9011e8ae4ff7ac7f9001e7.jpg"} alt={"club_logo"}/>
+                {/*<div className={"club_logo"}>{this.state.clubLogo}</div>*/}
                 <div className={"club_name"}>{this.state.clubName}</div>
             </div>
         );
