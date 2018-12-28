@@ -16,7 +16,7 @@ font-size:20px;
 padding-right: 15px;
 }
 
-img {
+.side_header_image {
 position: relative;
 display: table-cell;
 width: 24px;
