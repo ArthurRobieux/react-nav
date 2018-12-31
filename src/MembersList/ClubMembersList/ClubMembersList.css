@@ -315,6 +315,8 @@
 #members_list{
   width: 80%;
   margin: auto;
+  top: 15px;
+  position: relative;
 }
 
 .show_hide_menu{

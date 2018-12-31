@@ -17,10 +17,18 @@ class ActionsMenu extends Component {
 
         console.log(document.getElementById("calendar"));
 
+        const calendarDivWidth = document.getElementById("calendar").clientWidth;
+        const calendarDivHeight = document.getElementById("calendar").clientHeight;
+        const calendarPdfWidth = 190;
+        const calendarPdfHeight = calendarDivHeight * calendarPdfWidth / calendarDivWidth;
+
+        console.log(calendarPdfWidth);
+        console.log(calendarPdfHeight);
+
         html2canvas(document.getElementById("calendar")).then(canvas => {
             var doc = new jsPDF();
             doc.text(10, 10, 'Calendrier');
-            doc.addImage(canvas, 'PNG', 10, 20, 190, 160);
+            doc.addImage(canvas, 'PNG', 10, 20, calendarPdfWidth, calendarPdfHeight);
             doc.save('Calendrier.pdf');
         });
     }
