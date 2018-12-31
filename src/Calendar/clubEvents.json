@@ -619,6 +619,624 @@
 						"id": 20
 					}
 				}]
+		},{
+			"id": 6,
+			"name": "PSG",
+			"events": [
+				{
+					"id": 5,
+					"type": "Entrainement",
+					"start_at": "2018-12-26T14:00:00+02:00",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "PSG",
+						"is_home": true,
+						"score": "1",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "victory",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "Barcelone",
+						"is_home": false,
+						"score": "0",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "defeat",
+						"id": 20
+					}
+				},
+				{
+					"id" : 7,
+					"type": "Match Amical",
+					"start_at" : "12-04-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "PSG",
+						"is_home": true,
+						"score": "1",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "victory",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "FC Sèvres",
+						"is_home": false,
+						"score": "0",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "defeat",
+						"id": 20
+					}
+				},
+				{
+					"id" : 8,
+					"type": "Match Amical",
+					"start_at" : "01-13-2019",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2019",
+						"current": false,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2019",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "PSG",
+						"is_home": true,
+						"score": "3",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "victory",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "Lilles",
+						"is_home": false,
+						"score": "1",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "defeat",
+						"id": 20
+					}
+				}]
+		},
+		{
+			"id": 9,
+			"name": "OM",
+			"events": [
+				{
+					"id": 12,
+					"type": "Entrainement",
+					"start_at": "12-03-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "OM",
+						"is_home": true,
+						"score": "1",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "victory",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "Juventus",
+						"is_home": false,
+						"score": "0",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "defeat",
+						"id": 20
+					}
+				},
+				{
+					"id": 32,
+					"type": "Compétition",
+					"start_at": "12-12-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "OM",
+						"is_home": true,
+						"score": "1",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "defeat",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "PSG",
+						"is_home": false,
+						"score": "2",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "victory",
+						"id": 20
+					}
+				}]
+		},
+		{
+			"id": 10,
+			"name": "OL",
+			"events": [
+				{
+					"id": 23,
+					"type": "Entrainement",
+					"start_at": "12-01-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "OL",
+						"is_home": true,
+						"score": null,
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": null,
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "Chelsea",
+						"is_home": false,
+						"score": null,
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": null,
+						"id": 20
+					}
+				},
+				{
+					"id": 24,
+					"type": "Compétition",
+					"start_at": "11-12-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "OL",
+						"is_home": true,
+						"score": "1",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "victory",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "Atletico",
+						"is_home": false,
+						"score": "0",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "defeat",
+						"id": 20
+					}
+				},
+				{
+					"id": 25,
+					"type": "Match Amical",
+					"start_at": "11-03-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "OL",
+						"is_home": true,
+						"score": "1",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "victory",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "Etoile Rouge",
+						"is_home": false,
+						"score": "0",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "defeat",
+						"id": 20
+					}
+				},
+				{
+					"id": 26,
+					"type": "Compétition",
+					"start_at": "01-21-2019",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2019",
+						"current": false,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2019",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "OL",
+						"is_home": true,
+						"score": "1",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "defeat",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "Amiens",
+						"is_home": false,
+						"score": "2",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "victory",
+						"id": 20
+					}
+				}]
+		},
+		{
+			"id": 13,
+			"name": "Real Madrid",
+			"events": [
+				{
+					"id": 54,
+					"type": "Match Amical",
+					"start_at": "12-08-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "Real Madrid",
+						"is_home": true,
+						"score": null,
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": null,
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "Orléans",
+						"is_home": false,
+						"score": null,
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": null,
+						"id": 20
+					}
+				},
+				{
+					"id": 42,
+					"type": "Match Amical",
+					"start_at": "12-09-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "Real Madrid",
+						"is_home": true,
+						"score": "2",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "defeat",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "PSV",
+						"is_home": false,
+						"score": "4",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "victory",
+						"id": 20
+					}
+				},
+				{
+					"id": 11,
+					"type": "Compétition",
+					"start_at": "12-21-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "Real Madrid",
+						"is_home": true,
+						"score": "1",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "victory",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "FC Gibson",
+						"is_home": false,
+						"score": "0",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "defeat",
+						"id": 20
+					}
+				},
+				{
+					"id": 14,
+					"type": "Barbecue",
+					"start_at": "01-11-2019",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2019",
+						"current": false,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2019",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "Real Madrid",
+						"is_home": true,
+						"score": "0",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "defeat",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "OL",
+						"is_home": false,
+						"score": "3",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "victory",
+						"id": 20
+					}
+				}]
+		},{
+			"id": 63,
+			"name": "Juventus",
+			"events": [
+				{
+					"id": 54,
+					"type": "Match Amical",
+					"start_at": "12-12-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "Juventus",
+						"is_home": true,
+						"score": null,
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": null,
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "Orléans",
+						"is_home": false,
+						"score": null,
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": null,
+						"id": 20
+					}
+				},
+				{
+					"id": 42,
+					"type": "Match Amical",
+					"start_at": "01-09-2019",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2019",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2019",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "Juventus",
+						"is_home": true,
+						"score": "2",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "victory",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "PSV",
+						"is_home": false,
+						"score": "1",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "defeat",
+						"id": 20
+					}
+				},
+				{
+					"id": 11,
+					"type": "Compétition",
+					"start_at": "12-17-2018",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2018",
+						"current": true,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2018",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "Juventus",
+						"is_home": true,
+						"score": "0",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "defeat",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "Rennes",
+						"is_home": false,
+						"score": "1",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "victory",
+						"id": 20
+					}
+				},
+				{
+					"id": 14,
+					"type": "Barbecue",
+					"start_at": "01-11-2019",
+					"season": {
+						"start_date": "2018-08-01",
+						"end_date": "2019-07-31",
+						"name": "2019",
+						"current": false,
+						"archived": false,
+						"id": 27,
+						"slug_name": "2019",
+						"_links": {}
+					},
+					"opponent_left": {
+						"jersey_color": null,
+						"short_name": "Juventus",
+						"is_home": true,
+						"score": "0",
+						"is_current_team": true,
+						"full_name": "AS Rock'n'Roll",
+						"match_outcome": "defeat",
+						"id": 6
+					},
+					"opponent_right": {
+						"jersey_color": null,
+						"short_name": "PSG",
+						"is_home": false,
+						"score": "3",
+						"is_current_team": false,
+						"full_name": "Football Club Gibson",
+						"match_outcome": "victory",
+						"id": 20
+					}
+				}]
 		}
 	]
 }

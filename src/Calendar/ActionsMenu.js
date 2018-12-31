@@ -25,7 +25,11 @@ class ActionsMenu extends Component {
         html2canvas(document.getElementById("calendar")).then(canvas => {
             var doc = new jsPDF();
             doc.text(10, 10, 'Calendrier');
-            doc.addImage(canvas, 'PNG', 10, 20, calendarPdfWidth, calendarPdfHeight);
+            doc.addImage(canvas, 'PNG', 10, 10, calendarPdfWidth, calendarPdfHeight);
+            if(calendarPdfHeight > 280){ // I noticed 365 was the height of my page but for your landscape page it must be lower depending on your unit (pt, or mm or cm etc)
+              doc.addPage();
+              doc.addImage(canvas, 10, -280, calendarPdfWidth, calendarPdfHeight);
+            }
             doc.save('Calendrier.pdf');
         });
     }
@@ -42,7 +46,11 @@ class ActionsMenu extends Component {
         html2canvas(document.getElementById("calendar")).then(canvas => {
             var doc = new jsPDF();
             doc.text(10, 10, 'Calendrier');
-            doc.addImage(canvas, 'PNG', 10, 20, calendarPdfWidth, calendarPdfHeight);
+            doc.addImage(canvas, 'PNG', 10, 10, calendarPdfWidth, calendarPdfHeight);
+            if(calendarPdfHeight > 280){ // I noticed 365 was the height of my page but for your landscape page it must be lower depending on your unit (pt, or mm or cm etc)
+              doc.addPage();
+              doc.addImage(canvas, 10, -280, calendarPdfWidth, calendarPdfHeight);
+            }
             doc.autoPrint();
             doc.output('dataurlnewwindow');
         });
