@@ -915,9 +915,9 @@ class ClubMembersList extends Component {
           else if(cellInfo.column.id === 'teams'){
               return (
                   // Change URL to static URL
-                  <a href={"/profile/"+id} className={"profile_ref"}>
+                  <a href={"/profile/"+id} className={"profile_ref cell_element"}>
                       {members_data[cellInfo.index][cellInfo.column.id].map(team => (
-                        <div className={"team_name cell_element"}>{team}</div>
+                        <div className={"team_name"}>{team}</div>
                       ))}
                   </a>
               );
