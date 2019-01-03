@@ -42,12 +42,27 @@ class TopHeader extends Component {
         })
     }
 
+    showHideTopHeader(){
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > 50) {
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("top_header").style.top = "0";
+                } else {
+                    document.getElementById("top_header").style.top = "-70px";
+                }
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    }
+
     componentDidMount(){
         this.getClubInformations();
     }
 
     render() {
-
+        this.showHideTopHeader();
         return(
             <div id={"top_header"}>
                 <img className={"club_logo"} src={"http://cdn.local.sporteasy.net:8000/media/image/site_logo/168x168/1d41b2b8fafbcaa31a38dc5d5aa51567/9dbf8cb0db9011e8ae4ff7ac7f9001e7.jpg"} alt={"club_logo"}/>
