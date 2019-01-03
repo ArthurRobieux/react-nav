@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import CalendarApp from '../Calendar/CalendarApp';
 import MembersListApp from '../MembersList/MembersListApp';
 import TeamsApp from '../Teams/TeamsApp';
+import SettingsApp from '../Settings/SettingsApp';
 
 import './SideHeader.css';
 
@@ -41,10 +42,10 @@ class SideHeader extends Component {
 
                             </li>
                             <li>
-                                <a href="/">
-                                    <i className="fa fa-settings"><img className={"side_header_image"} src="img/settings.png" id="settings"/></i>
+                                <Link to="/settings">
+                                    <i className="fa fa-settings"><img className={"side_header_image"} src="img/settings.png" id="members"/></i>
                                     <span className="nav-text">Paramètres</span>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
 
@@ -64,6 +65,7 @@ class SideHeader extends Component {
                         <Route path="/calendar" component={CalendarApp} />
                         <Route path="/roster" component={MembersListApp} />
                         <Route path="/teams" component={TeamsApp} />
+                        <Route path="/settings" component={SettingsApp} />
                     </div>
                 </div>
             </Router>
