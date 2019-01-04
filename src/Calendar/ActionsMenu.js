@@ -4,9 +4,28 @@ import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 
 class ActionsMenu extends Component {
+    constructor() {
+      super();
+      this.state = {
+          buttonListViewImg: "img/listViewDark.svg",
+          buttonGridViewImg: "img/gridViewWhite.svg"
+      };
+    }
 
     changeView(Calendar, view){
-        Calendar.setState({calendarView: view})
+        const buttonListView = document.getElementById('button_list_view');
+        const buttonGridView = document.getElementById('button_grid_view');
+        if(view === 'list'){
+            buttonListView.style.background = '#3cabff';
+            buttonGridView.style.background = 'white';
+            this.setState({buttonListViewImg: "img/listViewWhite.svg", buttonGridViewImg: "img/gridViewDark.svg"})
+        }
+        else{
+            buttonListView.style.background = 'white';
+            buttonGridView.style.background = '#3cabff';
+            this.setState({buttonListViewImg: "img/listViewDark.svg", buttonGridViewImg: "img/gridViewWhite.svg"})
+        }
+        Calendar.setState({calendarView: view});
     }
 
     changeSelectedSeason(Calendar, season){
@@ -81,14 +100,14 @@ class ActionsMenu extends Component {
                     Print
                 </button>
 
-              {/*Show grid calendar*/}
-              <button className={"action_button calendar_view_button"} onClick={() => this.changeView(Calendar, "grid")}>
-                  Grid
+              {/*Show list calendar*/}
+              <button id={"button_list_view"} className={"action_button calendar_view_button"} onClick={() => this.changeView(Calendar, "list")}>
+                  <img src={this.state.buttonListViewImg} alt={'listView'} style={{width: '20px', padding: '5px'}}/>
               </button>
 
-              {/*Show list calendar*/}
-              <button className={"action_button calendar_view_button"} onClick={() => this.changeView(Calendar, "list")}>
-                  List
+              {/*Show grid calendar*/}
+              <button id={"button_grid_view"} className={"action_button calendar_view_button"} onClick={() => this.changeView(Calendar, "grid")}>
+                  <img src={this.state.buttonGridViewImg} alt={'gridView'} style={{width: '20px', padding: '5px'}}/>
               </button>
 
               {/*/!*General Filter*!/*/}

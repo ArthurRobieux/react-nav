@@ -120,6 +120,10 @@ hr {
   width: 100%;
 }
 
+#button_grid_view{
+    background: #3cabff;
+}
+
 #calendarApp{
   width: 75%;
   margin-right: auto;
