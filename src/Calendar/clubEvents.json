@@ -122,11 +122,11 @@
 					"season": {
 						"start_date": "2018-08-01",
 						"end_date": "2019-07-31",
-						"name": "2018",
+						"name": "2019",
 						"current": true,
 						"archived": false,
 						"id": 27,
-						"slug_name": "2018",
+						"slug_name": "2019",
 						"_links": {}
 					},
 					"opponent_left": {
@@ -486,11 +486,11 @@
 					"season": {
 						"start_date": "2018-08-01",
 						"end_date": "2019-07-31",
-						"name": "2018",
+						"name": "2019",
 						"current": true,
 						"archived": false,
 						"id": 27,
-						"slug_name": "2018",
+						"slug_name": "2019",
 						"_links": {}
 					},
 					"opponent_left": {
@@ -775,11 +775,11 @@
 					"season": {
 						"start_date": "2018-08-01",
 						"end_date": "2019-07-31",
-						"name": "2018",
+						"name": "2019",
 						"current": true,
 						"archived": false,
 						"id": 27,
-						"slug_name": "2018",
+						"slug_name": "2019",
 						"_links": {}
 					},
 					"opponent_left": {
