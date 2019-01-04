@@ -313,9 +313,8 @@
 }
 
 #members_list{
-  width: 80%;
+  width: 75%;
   margin: auto;
-  top: 15px;
   position: relative;
 }
 
@@ -542,10 +541,10 @@
   overflow: scroll;
 }
 
-.members_title{
+#members_title{
   color: #3cabff;
-  font-size: 25px;
-  display: inline;
+  /*font-size: 25px;*/
+  /*display: inline;*/
 }
 
 .icon_parents{

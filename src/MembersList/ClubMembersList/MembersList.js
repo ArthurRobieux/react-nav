@@ -110,7 +110,7 @@ class MembersList extends Component {
 
                             return (
                                 <div>
-                                    <div className={"members_title"}>{ClubMembersList.props.translations.members}</div> ({totalRecords})
+                                    <h3 id={"members_title"}>{ClubMembersList.props.translations.members} ({totalRecords})</h3>
                                     <ActionsMenu ClubMembersList={ClubMembersList}/>
                                     {makeTable()}
                                 </div>
@@ -124,7 +124,7 @@ class MembersList extends Component {
           console.log("No members_data!");
           return(
               <div>
-                  <div className={"members_title"}>{ClubMembersList.props.translations.members}</div>
+                  <h3 id={"members_title"}>{ClubMembersList.props.translations.members}</h3>
                   <ActionsMenu ClubMembersList={ClubMembersList}/>
                   <div className="lds-ripple">
                       <div></div>
