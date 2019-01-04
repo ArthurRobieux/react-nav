@@ -154,10 +154,19 @@ class CalendarApp extends Component {
 
                 clubEvents.teams[i].color = colors[i];
 
+                let endDate;
+
+                if(clubEvents.teams[i].events[j].end_at !== undefined){
+                    endDate = new Date(clubEvents.teams[i].events[j].end_at);
+                }
+                else{
+                    endDate = new Date(clubEvents.teams[i].events[j].start_at);
+                }
+
                 // Create new event
                 newEvent = {
-                    allDay: true,
-                    endDate: new Date(clubEvents.teams[i].events[j].start_at),
+                    allDay: false,
+                    endDate: endDate,
                     startDate: new Date(clubEvents.teams[i].events[j].start_at),
                     title: <div>
                                 <div className={"event"}>{clubEvents.teams[i].name} ({clubEvents.teams[i].events[j].id})</div>
