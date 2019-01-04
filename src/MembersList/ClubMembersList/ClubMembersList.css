@@ -217,10 +217,9 @@
 }
 
 .action_image{
-  max-width: 40px;
+  width: 20px;
   height: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 5px
 }
 
 .add_a_member_button{

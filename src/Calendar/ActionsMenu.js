@@ -86,28 +86,28 @@ class ActionsMenu extends Component {
               {/*Add an event*/}
               <a className={"action_link"} href={"/members/invite/"}>
                 <button className={"action_button add_a_member_button"}>
-                    Ajouter un évenement
+                    <img src={'img/iconAddEvents.svg'} alt={'iconAddEvents'} className={"action_image"}/>
                 </button>
               </a>
 
               {/*Export members list*/}
                 <button className={"action_button"} onClick={() => this.exportCalendar()}>
-                    Export
+                    <img src={'img/iconExport.svg'} alt={'iconExport'} className={"action_image"}/>
                 </button>
 
               {/*Print members list*/}
                 <button className={"action_button"} onClick={() => this.printCalendar()}>
-                    Print
+                    <img src={'img/iconPrint.svg'} alt={'iconPrint'} className={"action_image"}/>
                 </button>
 
               {/*Show list calendar*/}
               <button id={"button_list_view"} className={"action_button calendar_view_button"} onClick={() => this.changeView(Calendar, "list")}>
-                  <img src={this.state.buttonListViewImg} alt={'listView'} style={{width: '20px', padding: '5px'}}/>
+                  <img src={this.state.buttonListViewImg} alt={'listView'} className={"action_image"}/>
               </button>
 
               {/*Show grid calendar*/}
               <button id={"button_grid_view"} className={"action_button calendar_view_button"} onClick={() => this.changeView(Calendar, "grid")}>
-                  <img src={this.state.buttonGridViewImg} alt={'gridView'} style={{width: '20px', padding: '5px'}}/>
+                  <img src={this.state.buttonGridViewImg} alt={'gridView'} className={"action_image"}/>
               </button>
 
               {/*/!*General Filter*!/*/}
