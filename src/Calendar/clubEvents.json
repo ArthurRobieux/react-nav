@@ -3,7 +3,7 @@
 	"teams": [
 		{
 			"id": 6,
-			"name": "PSG",
+			"name": "U11",
 			"events": [
 				{
 					"id": 5,
@@ -21,7 +21,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "PSG",
+						"short_name": "U11",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -56,7 +56,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "PSG",
+						"short_name": "U11",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -91,7 +91,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "PSG",
+						"short_name": "U11",
 						"is_home": true,
 						"score": "3",
 						"is_current_team": true,
@@ -101,7 +101,7 @@
 					},
 					"opponent_right": {
 						"jersey_color": null,
-						"short_name": "Lilles",
+						"short_name": "U17",
 						"is_home": false,
 						"score": "1",
 						"is_current_team": false,
@@ -113,12 +113,12 @@
 		},
 		{
 			"id": 9,
-			"name": "OM",
+			"name": "U12",
 			"events": [
 				{
 					"id": 12,
 					"type": "Entrainement",
-					"start_at": "12-03-2018",
+					"start_at": "01-17-2019",
 					"season": {
 						"start_date": "2018-08-01",
 						"end_date": "2019-07-31",
@@ -131,7 +131,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "OM",
+						"short_name": "U12",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -141,7 +141,7 @@
 					},
 					"opponent_right": {
 						"jersey_color": null,
-						"short_name": "Juventus",
+						"short_name": "U15",
 						"is_home": false,
 						"score": "0",
 						"is_current_team": false,
@@ -166,7 +166,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "OM",
+						"short_name": "U12",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -176,7 +176,7 @@
 					},
 					"opponent_right": {
 						"jersey_color": null,
-						"short_name": "PSG",
+						"short_name": "U11",
 						"is_home": false,
 						"score": "2",
 						"is_current_team": false,
@@ -188,7 +188,7 @@
 		},
 		{
 			"id": 10,
-			"name": "OL",
+			"name": "U13",
 			"events": [
 				{
 					"id": 23,
@@ -206,7 +206,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "OL",
+						"short_name": "U13",
 						"is_home": true,
 						"score": null,
 						"is_current_team": true,
@@ -228,7 +228,7 @@
 				{
 					"id": 24,
 					"type": "Compétition",
-					"start_at": "11-12-2018",
+					"start_at": "01-23-2018",
 					"season": {
 						"start_date": "2018-08-01",
 						"end_date": "2019-07-31",
@@ -241,7 +241,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "OL",
+						"short_name": "U13",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -276,7 +276,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "OL",
+						"short_name": "U13",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -311,7 +311,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "OL",
+						"short_name": "U13",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -333,7 +333,7 @@
 		},
 		{
 			"id": 13,
-			"name": "Real Madrid",
+			"name": "U14",
 			"events": [
 				{
 					"id": 54,
@@ -351,7 +351,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "Real Madrid",
+						"short_name": "U14",
 						"is_home": true,
 						"score": null,
 						"is_current_team": true,
@@ -373,7 +373,7 @@
 				{
 					"id": 42,
 					"type": "Match Amical",
-					"start_at": "12-09-2018",
+					"start_at": "01-11-2018",
 					"season": {
 						"start_date": "2018-08-01",
 						"end_date": "2019-07-31",
@@ -386,7 +386,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "Real Madrid",
+						"short_name": "U14",
 						"is_home": true,
 						"score": "2",
 						"is_current_team": true,
@@ -421,7 +421,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "Real Madrid",
+						"short_name": "U14",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -443,7 +443,7 @@
 				{
 					"id": 14,
 					"type": "Barbecue",
-					"start_at": "01-11-2019",
+					"start_at": "02-11-2019",
 					"season": {
 						"start_date": "2018-08-01",
 						"end_date": "2019-07-31",
@@ -456,7 +456,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "Real Madrid",
+						"short_name": "U14",
 						"is_home": true,
 						"score": "0",
 						"is_current_team": true,
@@ -466,7 +466,7 @@
 					},
 					"opponent_right": {
 						"jersey_color": null,
-						"short_name": "OL",
+						"short_name": "U13",
 						"is_home": false,
 						"score": "3",
 						"is_current_team": false,
@@ -477,12 +477,12 @@
 				}]
 		},{
 			"id": 63,
-			"name": "Juventus",
+			"name": "U15",
 			"events": [
 				{
 					"id": 54,
 					"type": "Match Amical",
-					"start_at": "12-12-2018",
+					"start_at": "01-25-2019",
 					"season": {
 						"start_date": "2018-08-01",
 						"end_date": "2019-07-31",
@@ -495,7 +495,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "Juventus",
+						"short_name": "U15",
 						"is_home": true,
 						"score": null,
 						"is_current_team": true,
@@ -530,7 +530,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "Juventus",
+						"short_name": "U15",
 						"is_home": true,
 						"score": "2",
 						"is_current_team": true,
@@ -565,7 +565,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "Juventus",
+						"short_name": "U15",
 						"is_home": true,
 						"score": "0",
 						"is_current_team": true,
@@ -600,7 +600,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "Juventus",
+						"short_name": "U15",
 						"is_home": true,
 						"score": "0",
 						"is_current_team": true,
@@ -610,7 +610,7 @@
 					},
 					"opponent_right": {
 						"jersey_color": null,
-						"short_name": "PSG",
+						"short_name": "U11",
 						"is_home": false,
 						"score": "3",
 						"is_current_team": false,
@@ -621,7 +621,7 @@
 				}]
 		},{
 			"id": 123,
-			"name": "St Etienne",
+			"name": "U16",
 			"events": [
 				{
 					"id": 5,
@@ -639,7 +639,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "PSG",
+						"short_name": "U11",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -674,7 +674,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "PSG",
+						"short_name": "U11",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -709,7 +709,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "PSG",
+						"short_name": "U11",
 						"is_home": true,
 						"score": "3",
 						"is_current_team": true,
@@ -719,7 +719,7 @@
 					},
 					"opponent_right": {
 						"jersey_color": null,
-						"short_name": "Lilles",
+						"short_name": "U17",
 						"is_home": false,
 						"score": "1",
 						"is_current_team": false,
@@ -731,7 +731,7 @@
 		},
 		{
 			"id": 98,
-			"name": "Lilles",
+			"name": "Senior",
 			"events": [
 				{
 					"id": 12,
@@ -749,7 +749,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "OM",
+						"short_name": "U12",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -759,7 +759,7 @@
 					},
 					"opponent_right": {
 						"jersey_color": null,
-						"short_name": "Juventus",
+						"short_name": "U15",
 						"is_home": false,
 						"score": "0",
 						"is_current_team": false,
@@ -771,7 +771,7 @@
 				{
 					"id": 32,
 					"type": "Compétition",
-					"start_at": "12-12-2018",
+					"start_at": "01-27-2019",
 					"season": {
 						"start_date": "2018-08-01",
 						"end_date": "2019-07-31",
@@ -784,7 +784,7 @@
 					},
 					"opponent_left": {
 						"jersey_color": null,
-						"short_name": "OM",
+						"short_name": "U12",
 						"is_home": true,
 						"score": "1",
 						"is_current_team": true,
@@ -794,152 +794,7 @@
 					},
 					"opponent_right": {
 						"jersey_color": null,
-						"short_name": "PSG",
-						"is_home": false,
-						"score": "2",
-						"is_current_team": false,
-						"full_name": "Football Club Gibson",
-						"match_outcome": "victory",
-						"id": 20
-					}
-				}]
-		},
-		{
-			"id": 93,
-			"name": "Belgrade",
-			"events": [
-				{
-					"id": 23,
-					"type": "Entrainement",
-					"start_at": "12-01-2018",
-					"season": {
-						"start_date": "2018-08-01",
-						"end_date": "2019-07-31",
-						"name": "2018",
-						"current": true,
-						"archived": false,
-						"id": 27,
-						"slug_name": "2018",
-						"_links": {}
-					},
-					"opponent_left": {
-						"jersey_color": null,
-						"short_name": "OL",
-						"is_home": true,
-						"score": null,
-						"is_current_team": true,
-						"full_name": "AS Rock'n'Roll",
-						"match_outcome": null,
-						"id": 6
-					},
-					"opponent_right": {
-						"jersey_color": null,
-						"short_name": "Chelsea",
-						"is_home": false,
-						"score": null,
-						"is_current_team": false,
-						"full_name": "Football Club Gibson",
-						"match_outcome": null,
-						"id": 20
-					}
-				},
-				{
-					"id": 24,
-					"type": "Compétition",
-					"start_at": "11-12-2018",
-					"season": {
-						"start_date": "2018-08-01",
-						"end_date": "2019-07-31",
-						"name": "2018",
-						"current": true,
-						"archived": false,
-						"id": 27,
-						"slug_name": "2018",
-						"_links": {}
-					},
-					"opponent_left": {
-						"jersey_color": null,
-						"short_name": "OL",
-						"is_home": true,
-						"score": "1",
-						"is_current_team": true,
-						"full_name": "AS Rock'n'Roll",
-						"match_outcome": "victory",
-						"id": 6
-					},
-					"opponent_right": {
-						"jersey_color": null,
-						"short_name": "Atletico",
-						"is_home": false,
-						"score": "0",
-						"is_current_team": false,
-						"full_name": "Football Club Gibson",
-						"match_outcome": "defeat",
-						"id": 20
-					}
-				},
-				{
-					"id": 25,
-					"type": "Match Amical",
-					"start_at": "11-03-2018",
-					"season": {
-						"start_date": "2018-08-01",
-						"end_date": "2019-07-31",
-						"name": "2018",
-						"current": true,
-						"archived": false,
-						"id": 27,
-						"slug_name": "2018",
-						"_links": {}
-					},
-					"opponent_left": {
-						"jersey_color": null,
-						"short_name": "OL",
-						"is_home": true,
-						"score": "1",
-						"is_current_team": true,
-						"full_name": "AS Rock'n'Roll",
-						"match_outcome": "victory",
-						"id": 6
-					},
-					"opponent_right": {
-						"jersey_color": null,
-						"short_name": "Etoile Rouge",
-						"is_home": false,
-						"score": "0",
-						"is_current_team": false,
-						"full_name": "Football Club Gibson",
-						"match_outcome": "defeat",
-						"id": 20
-					}
-				},
-				{
-					"id": 26,
-					"type": "Compétition",
-					"start_at": "01-21-2019",
-					"season": {
-						"start_date": "2018-08-01",
-						"end_date": "2019-07-31",
-						"name": "2019",
-						"current": false,
-						"archived": false,
-						"id": 27,
-						"slug_name": "2019",
-						"_links": {}
-					},
-					"opponent_left": {
-						"jersey_color": null,
-						"short_name": "OL",
-						"is_home": true,
-						"score": "1",
-						"is_current_team": true,
-						"full_name": "AS Rock'n'Roll",
-						"match_outcome": "defeat",
-						"id": 6
-					},
-					"opponent_right": {
-						"jersey_color": null,
-						"short_name": "Amiens",
+						"short_name": "U11",
 						"is_home": false,
 						"score": "2",
 						"is_current_team": false,
