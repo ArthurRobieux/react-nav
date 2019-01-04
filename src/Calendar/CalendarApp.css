@@ -121,7 +121,15 @@ hr {
 }
 
 #button_grid_view{
-    background: #3cabff;
+  background: #3cabff;
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 0;
+}
+
+#button_list_view{
+  background: white;
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 0;
 }
 
 #calendarApp{
