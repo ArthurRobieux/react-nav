@@ -255,6 +255,7 @@ class CalendarApp extends Component {
                         selectable={true}
                         onSelectEvent={event => console.log(event)}
                         onSelectSlot={(slot) => this.setState({activePopup: true, selectedSlots: slot})}
+                        views={['month', 'week', 'day']}
                     />
                     {this.showSlot()}
                 </div>
